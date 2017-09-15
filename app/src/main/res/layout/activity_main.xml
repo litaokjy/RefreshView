@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.kjy.refresh.RefreshView
+        android:id="@+id/rv_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/transparent">
+        <com.kjy.refresh.NestScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+            <TextView
+                android:id="@+id/main_tv"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="20dp"
+                android:textSize="18sp"
+                android:text="下拉刷新 \n\n\n\n\n\n\n下拉刷新 \n\n\n\n\n\n\n下拉刷新 \n\n\n\n\n\n\n下拉刷新 \n\n\n\n\n\n\n下拉刷新 \n\n\n\n\n\n\n下拉刷新 \n\n\n\n\n\n\n下拉刷新 \n\n\n\n\n\n\n下拉刷新 \n\n\n\n\n\n\n下拉刷新 \n\n\n\n\n\n\n下拉刷新 \n\n\n\n\n\n\n下拉刷新 \n\n\n\n\n\n\n下拉刷新 \n\n\n\n\n\n\n下拉刷新 \n\n\n\n\n\n\n"
+                />
+        </com.kjy.refresh.NestScrollView>
+    </com.kjy.refresh.RefreshView>
+</RelativeLayout>
